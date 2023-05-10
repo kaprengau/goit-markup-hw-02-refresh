@@ -286,7 +286,7 @@ body {
 .filters-item-button {
     font-weight: var(--fw-medium);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
     background: var(--hover-color);
@@ -307,14 +307,14 @@ body {
         .photo-item-title {
             font-weight: var(--fw-medium);
             font-size: 20px;
-            line-height: 24px;
+            line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--secondary-color);}
     
         .photo-item-text {
             font-weight: 400;
             font-size: 16px;
-            line-height: 24px;
+            line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--dark-color);}
 
