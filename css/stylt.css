@@ -91,27 +91,19 @@ body {
     
 }
 
-.header-mail-link {
-    font-weight: 400;
+.header-mail {}
+
+.header-adress-link {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+
 }
 .header-mail-link:hover {color: var(--hover-color);}
 .header-mail-link:focus{color: var(--hover-color);}
 
-
-.header-tel-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--dark-color);}
-
-.header-tel-link:hover {color: var(--hover-color);}
-.header-tel-link:focus {color: var(--hover-color);}
-
+.header-tel
 
 
 /* ---------------Dark------------ */
