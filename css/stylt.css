@@ -294,6 +294,7 @@ body {
 .item {}
 
 .filters-item-button {
+    font-family: "Roboto", sans-serif;
     font-weight: var(--fw-medium);
     font-size: 16px;
     line-height: 1.5;
@@ -301,6 +302,10 @@ body {
     color: var(--primary-color);
     background:var(--white-futer-color) ;
     cursor: pointer;}
+.filters-item-button:hover{color: #FFFFFF;
+background-color: #404BBF;}
+.filters-item-button:focus{color: #FFFFFF;
+background-color: #404BBF;}
     
 
     /*----------------------Photo-------------- */
