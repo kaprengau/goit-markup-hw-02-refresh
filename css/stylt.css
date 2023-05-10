@@ -13,8 +13,9 @@
 
 body {
     font-family: "Roboto",sans-serif;
-    color: var(--white-color);
+    color: #434455;
     margin: 0;
+    background-color:var(--white-color);
 }
 
 
@@ -43,10 +44,10 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #404bbf;}
+    color:var(--primary-color);}
 
 .header-logo:hover {
-        color:#404bbf;
+        color:var(--hover-color);
 }
 
 .header-logo:hover a:focus {
@@ -98,8 +99,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
-.header-mail-link:hover {color: #404bbf;}
-.header-mail-link:focus{color: #404bbf;}
+.header-mail-link:hover {color: var(--hover-color);}
+.header-mail-link:focus{color: var(--hover-color);}
 
 .header-item {}
 
@@ -108,10 +109,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color:var(--dark-color);}
 
-.header-tel-link {color: #404bbf;}
-.header-tel-link {color: #404bbf;}
+.header-tel-link {color: var(--hover-color);}
+.header-tel-link {color: var(--hover-color);}
 
 .header-tel {}
 
@@ -155,6 +156,7 @@ body {
     font-weight: var(--fw-medium);
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 
 }
@@ -201,11 +203,11 @@ body {
    
 }
 
-.team-list {}
+.team-list {background-color: #FFFFFF}
 
 
 
-.team-item {color: #FFFFFF;}
+.team-item {}
 
 
 
