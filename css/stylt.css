@@ -9,6 +9,7 @@
     --fw-extra-bolt: 800;
     --fw-bolt: 700;
     --fw-medium: 500;
+ --white-futer-color:#F4F4FD;
 }
 
 body {
@@ -81,8 +82,8 @@ body {
     color: var(--secondary-color);
     
 }
-
-
+.header-link:hover {color: #404bbf}
+.header-link:focus {color:#404BBF}
 
 .header-address {font-style: normal
 }
@@ -110,8 +111,8 @@ body {
     letter-spacing: 0.02em;
     color:var(--dark-color);}
 
-.header-tel-link {color: var(--hover-color);}
-.header-tel-link {color: var(--hover-color);}
+.header-tel-link:hover {color: var(--hover-color);}
+.header-tel-link:focus {color: var(--hover-color);}
 
 .header-tel {}
 
@@ -297,9 +298,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white-color);
-    background: var(--hover-color);
+    color: var(--primary-color);
+    background:var(--white-futer-color) ;
     cursor: pointer;}
+    
 
     /*----------------------Photo-------------- */
 
