@@ -108,10 +108,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.header-mail-link:hover {
+.header-adress-link:hover {
   color: var(--hover-color);
 }
-.header-mail-link:focus {
+.header-adress-link:focus {
   color: var(--hover-color);
 }
 
