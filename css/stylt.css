@@ -106,7 +106,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: #434455;
 }
 .header-adress-link:hover {
   color: var(--hover-color);
