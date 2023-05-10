@@ -68,7 +68,7 @@ body {
     color: #404bbf;
 }
 
-.header-logo-s:hover a:focus {
+.header-logo-s:focus {
     color: #404bbf;}
 .header-list {}
 
